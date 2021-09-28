@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DateToDaysMaker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.0/examples/cover/cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <!-- <h3 class="masthead-brand">Date To Days</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav> -->
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Enter the date</h1>
+        <p class="lead">Get corresponding ith day of the year</p>
+        <p class="lead">
+            <br><label for='dayslist'>DAYS</label>
+            <select id='dayslist'>
+                <!-- <option value='1'></option> -->
+            </select>
+        
+            <label for='monthslist'>MONTHS</label>
+            <select id='monthslist'>
+                <!-- <option value='1'></option> -->
+            </select>
+        
+            <label for='yearslist'>YEARS</label>
+            <select id='yearslist'>
+                <!-- <option value='1'></option> -->
+            </select>
+            
+            <br>
+            <a href="#" class="btn btn-lg btn-secondary" onclick="calculate()">Calculate</a>
+            <br><br><br>
+            <div id="displays"></div>
+            <br>ithDay of the Year
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Date To days <a href="#">Calculate</a></p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script> -->
+    <script src="code.js"></script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
