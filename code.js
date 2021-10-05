@@ -64,7 +64,7 @@ function calculate()
         flag = 0
 
     var ithdays = days + 30*months+monthflag+flag
-    console.log(monthflag,flag)
+    console.log(monthflag+flag, monthflag, flag)
     
     if(months>=2)
         ithdays-=2
